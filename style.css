@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+#header {
+    text-align: center;
+    background-color: #57789a;
+    padding: 10px;
+    color: #ffffff;
+    width: 100%;
+}
+#homeButton, #loginButton {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+#loginForm {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+    width: 100%;
+    margin-top: 20px;
+}
+
+#loginForm label {
+    font-weight: bold;
+}
+
+#loginForm button {
+    width: 100%;
+    margin-top: 20px;
+}
+.highlight-username {
+    font-weight: bold;  
+    color: #007bff;  
+}
